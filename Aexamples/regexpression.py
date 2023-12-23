@@ -13,7 +13,7 @@ y= re.search("^The", text)
 print(y)
 
 txt = "The rain in Spain"
-x = re.findall("aia", txt)
+x = re.findall("aia", txt)q
 print(len(x))
 
 
@@ -22,3 +22,5 @@ print(re.split(" ", text))
 print(re.findall("he", text))
 
 print(f"Output of Findall: {re.findall("he", text)}")
+
+print(text)
